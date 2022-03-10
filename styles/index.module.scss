@@ -1,0 +1,22 @@
+.mainNav {
+  background: black;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#anchor {
+  text-decoration: none !important;
+  color: unset;
+}
+
+.navBtn {
+  color: white !important;
+}
+
+.headerMain {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
