@@ -1,0 +1,36 @@
+.createMain {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+.createForm {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+.inputDiv {
+    z-index: 11;
+    position: absolute;
+    cursor: pointer;
+    width: 0;
+    height: 0;
+    opacity: 0;
+}
+
+.fileInput {
+    cursor: pointer;
+    position: absolute;
+    opacity: 0;
+    height: 250px;
+    left: 0;
+}
+
+#absImage {
+    position: absolute;
+}

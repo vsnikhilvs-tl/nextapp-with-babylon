@@ -15,7 +15,7 @@ import AccountBalanceWalletIcon from "@mui/icons-material/AccountBalanceWallet";
 import LogoutIcon from "@mui/icons-material/Logout";
 
 import Layout from "../../components/layout/layout";
-import styles from "../../styles/index.module.scss";
+import styles from "../../styles/Header.module.scss";
 
 const Search = styled("div")(({ theme }) => ({
   position: "relative",

@@ -545,7 +545,7 @@ function createScene() {
         dude.rotate(BABYLON.Axis.Y, BABYLON.Tools.ToRadians(-95), BABYLON.Space.LOCAL);
         const startRotation = dude.rotationQuaternion!.clone();    
             
-        camera.parent = dude;
+        // camera.parent = dude;
         scene.beginAnimation(result.skeletons[0], 0, 100, true, 1.0);
 
         let distance = 0;
@@ -620,7 +620,7 @@ function renderLoop() {
 export default function Home() {
 
     useEffect(() => {
-        renderLoop();
+        // renderLoop();
     }, [])
 
     return (
